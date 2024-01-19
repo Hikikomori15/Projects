@@ -12,13 +12,13 @@ else:
 Benutzername = str(input("Benutzer eingeben: "))
 Passwort = int(input("Passwort eingeben:  "))
 
-if Benutzername == "Samuel":
+if Benutzername == ".":
    print("Benutzer Richtig")
 else:
    print("Falsch")
    exit()
 
-if Passwort == 2004:
+if Passwort == 0:
    print("Richtiges Passwort")
 else:
    print("Falsches Passwort")
